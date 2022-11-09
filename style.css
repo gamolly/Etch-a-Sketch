@@ -44,7 +44,6 @@ table {
 
 div.container{ 
 	display: grid;
-	grid-template-columns: repeat(4,1fr);	
 	max-height: 50%;
 	max-width: 50%;
 	margin: auto;
@@ -54,4 +53,12 @@ div.container{
 div.grid {
    aspect-ratio: 1/1; 
    border: 0.5px solid black;
+}
+
+button.gridBtn{
+	width: 100px;
+	height: 50px;
+	margin-left: calc(50% - 100px/2);
+	margin-top: 1em; 
+	margin-bottom: 1em;
 }
